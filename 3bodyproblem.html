@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>3 Body Problem Simulation</title>
+<link rel="stylesheet" href="3bodyproblem.css"/>
+</head>
+<body>
+<canvas id="simulation"></canvas>
+
+<div class="toolbar">
+    <h3>Pengaturan Planet</h3>
+    <div class="planet-controls">
+    <label>Planet Merah Mass:</label>
+    <input id="massMerah" type="number" step="0.1" value="70">
+    <label>Planet Merah Speed:</label>
+    <input id="speedMerah" type="number" step="0.1" value="20">
+    </div>
+    <div class="planet-controls">
+    <label>Planet Hijau Mass:</label>
+    <input id="massHijau" type="number" step="0.1" value="70">
+    <label>Planet Hijau Speed:</label>
+    <input id="speedHijau" type="number" step="0.1" value="20">
+    </div>
+    <div class="planet-controls">
+    <label>Planet Kuning Mass:</label>
+    <input id="massKuning" type="number" step="0.1" value="70">
+    <label>Planet Kuning Speed:</label>
+    <input id="speedKuning" type="number" step="0.1" value="20">
+    </div>
+    <button id="startSimulation">Start</button>
+</div>
+
+<script src="3bodyproblem.js"></script>
+</body>
+</html>
